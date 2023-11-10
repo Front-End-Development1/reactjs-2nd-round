@@ -3,6 +3,7 @@ import ClassComponent  from "../stateManagement/ClassComponents"
 import FunctionalComponent from "../stateManagement/FunctionalComponent"
 import GlobalStateContext from "../stateManagement/GlobalStateContext"
 import {MyProvider} from "../stateManagement/Context"
+import APIs from "../CallAPI/APIs"
 //import Redux from "../stateManagement/Redux/Redux"
 
 const Home = () => {
@@ -12,7 +13,7 @@ const Home = () => {
       <ClassComponent />
       <FunctionalComponent />
       < GlobalStateContext />
-     
+      < APIs />
       </MyProvider>
     </>
   )
