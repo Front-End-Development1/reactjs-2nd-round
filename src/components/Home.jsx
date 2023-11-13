@@ -7,6 +7,7 @@ import APIs from "../CallAPI/APIs"
 import EffectHook from "../Hooks/EffectHook"
 import RefHook from "../Hooks/RefHook"
 import StateHook from "../Hooks/StateHook"
+import FormData from "../formDataHandling/FormData"
 
 //import Redux from "../stateManagement/Redux/Redux"
 
@@ -21,6 +22,7 @@ const Home = () => {
       <EffectHook />
       <RefHook />
       <StateHook />
+      <FormData />
       </MyProvider>
     </>
   )
